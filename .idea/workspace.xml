@@ -13,6 +13,29 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="MyArrayListsTest.DynamicIntArrayTest_WithInitialSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mihu.colections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mihu.colections" />
+      <option name="MAIN_CLASS_NAME" value="com.mihu.colections.MyArrayListsTest" />
+      <option name="METHOD_NAME" value="DynamicIntArrayTest_WithInitialSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyArrayListsTest.DynamicIntArrayTest_WithInitialSize" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
