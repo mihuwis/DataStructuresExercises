@@ -9,17 +9,17 @@ class MyArrayListsTest {
 
     @Test
     void DynamicIntArrayTest_WithInitialSize() {
-        new MyArrayLists(15);
+        new MyArrayLists(150);
     }
 
-//    @Test
-//    void addTest() {
-//        DynamicIntArray array = createArray(11);
-//        array.add(32);
-//        array.add(42);
-//        String result = " 0 1 2 3 4 5 6 7 8 9 10 32 42";
-//        assertEquals(result, array.toString());
-//    }
+    @Test
+    void addTest() {
+        MyArrayLists array = createArray(11);
+        array.add(32);
+        array.add(42);
+        String result = " 0 1 2 3 4 5 6 7 8 9 10 32 42";
+        assertEquals(result, array.toString());
+    }
 //
 //    @Test
 //    void removeTest() {
@@ -58,13 +58,13 @@ class MyArrayListsTest {
 //        assertEquals(result, array.toString());
 //    }
 //
-//    private DynamicIntArray createArray(int numOfElements) {
-//        DynamicIntArray array = new DynamicIntArray();
-//        for (int i = 0; i < numOfElements; ++i)
-//        {
-//            array.add(i);
-//        }
-//        return array;
-//    }
+    private MyArrayLists createArray(int numOfElements) {
+        MyArrayLists array = new MyArrayLists();
+        for (int i = 0; i < numOfElements; ++i)
+        {
+            array.add(i);
+        }
+        return array;
+    }
 
 }
