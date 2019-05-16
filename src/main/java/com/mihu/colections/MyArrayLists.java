@@ -24,6 +24,52 @@ public class MyArrayLists {
     public void add(int intToAdd) {
         int indexOfNewValue = ++ this.lastElementIndex;
         arr[indexOfNewValue] = intToAdd;
+    }
+
+
+    public void remove(int elementToRemove) {
+        if(!isValueInArray(elementToRemove)) {
+            throw new ArrayIndexOutOfBoundsException();
+        }
+
+        if (arr[lastElementIndex] == elementToRemove){
+            lastElementIndex--;
+        }
+        for (int i = 0; i < lastElementIndex; i++){
+            if(arr[i] == elementToRemove){
+                for(int j = i; j < lastElementIndex; j++) {
+                    arr[j] = arr[j + 1];
+                }
+                lastElementIndex--;
+            }
+        }
+    }
+
+    private boolean isValueInArray(int elementToCheck){
+        for(int i = 0; i < lastElementIndex; i++){
+            if(arr[i] == elementToCheck){
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public void insert(int index, int numberToEnter) {
+        if (index > this.lastElementIndex){
+            add(numberToEnter);
+
+        } else {
+            for (int i = 0; i < lastElementIndex; i++){
+                if(i == index) {
+                    lastElementIndex++;
+                    for (int j = lastElementIndex; j > i; j--) {
+                        arr[j] = arr[j - 1];
+                    }
+                    arr[i] = numberToEnter;
+                }
+            }
+        }
 
     }
 
