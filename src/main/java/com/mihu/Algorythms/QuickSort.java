@@ -15,23 +15,23 @@ public class QuickSort {
 
     private int partition(int[] arr, int start, int end) {
         int pivotValue = arr[end];
-        int i = start - 1;
+        int partitionPoint = start - 1;
 
-        for (int j = start; j < end; j++){
+        for (int j = start; j <= end; j++){
             if(arr[j] <= pivotValue){
-                i++;
+                partitionPoint++;
 
-                int temp = arr[i];
-                arr[i] = arr[j];
+                int temp = arr[partitionPoint];
+                arr[partitionPoint] = arr[j];
                 arr[j] = temp;
             }
         }
 
-        int temp = arr[i + 1];
-        arr[i + 1] = arr[end];
-        arr[end] = temp;
+//        int temp = arr[partitionPoint + 1];
+//        arr[partitionPoint + 1] = arr[end];
+//        arr[end] = temp;
 
-        return i;
+        return partitionPoint;
     }
 
 
