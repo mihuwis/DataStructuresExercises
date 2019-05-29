@@ -1,6 +1,7 @@
 package com.mihu;
 
 import com.mihu.Algorythms.QuickSort;
+import com.mihu.utills.Product;
 
 /**
  * Hello world!
@@ -10,14 +11,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        QuickSort quickSort = new QuickSort();
+        Product tomato1 = new Product("Tomato", 20);
+        Product tomato2 = new Product("Tomato", 20);
 
-        int[] arr = {7, 9, 3, 1, 2};
+        System.out.println(tomato1.hashCode());
+        System.out.println(tomato2.hashCode());
+        System.out.println(tomato1.getName().hashCode());
 
-        quickSort.quickSorting(arr, 0, arr.length - 1);
 
-        for(int number: arr){
-            System.out.println(number + " ");
-        }
+
     }
 }

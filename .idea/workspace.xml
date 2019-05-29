@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ab504f-00d7-4082-b704-bde33eacf25f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/DuplicateFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/DuplicateFinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/FactorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mihu/colections/customExceptions/StackIsFullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mihu/utills/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mihu/colections/MyStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/QuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mihu/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mihu/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mihu/colections/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mihu/colections/MyStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/colections/MyArrayListsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
+            <state relative-caret-position="735">
               <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,43 +37,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/colections/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/QuickSort.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/colections/MyStackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/QuickSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/Factorial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/DuplicateFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="590">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,28 +65,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/DuplicateFinderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/colections/customExceptions/StackIsFullException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/FactorialTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +82,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -125,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mihu/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mihu/colections/MyArrayListsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mihu/colections/MyArrayLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/QuickSort.java" />
@@ -134,14 +101,27 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/FactorialTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/DuplicateFinder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/DuplicateFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mihu/utills/ShopStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mihu/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mihu/utills/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mihu/colections/customExceptions/StackIsFullException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mihu/colections/MyStackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mihu/colections/MyStack.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="258" />
-    <option name="y" value="46" />
-    <option name="width" value="1387" />
-    <option name="height" value="919" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -149,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,6 +214,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +223,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../advanced/dinamic_array/java-dynamic-array-mihuwis/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../advanced/dinamic_array/java-dynamic-array-mihuwis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -256,10 +236,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mihu.colections" />
       <recent name="com.mihu.Algorythms" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mihu.colections.customExceptions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,82 +258,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DuplicateFinderTest.test3elementNonRepetition">
-    <configuration name="DuplicateFinderTest.test3elementNonRepetition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyStackTest.testExeptionwhenStackFull">
+    <configuration name="MyStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mihu.Algorythms.*" />
+          <option name="PATTERN" value="com.mihu.colections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mihu.Algorythms" />
-      <option name="MAIN_CLASS_NAME" value="com.mihu.Algorythms.DuplicateFinderTest" />
-      <option name="METHOD_NAME" value="test3elementNonRepetition" />
+      <option name="PACKAGE_NAME" value="com.mihu.colections" />
+      <option name="MAIN_CLASS_NAME" value="com.mihu.colections.MyStackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStackTest.testEqualityOfArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mihu.colections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mihu.colections" />
+      <option name="MAIN_CLASS_NAME" value="com.mihu.colections.MyStackTest" />
+      <option name="METHOD_NAME" value="testEqualityOfArrays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateFinderTest.test3elementRepetition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.testExeptionwhenStackFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mihu.Algorythms.*" />
+          <option name="PATTERN" value="com.mihu.colections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mihu.Algorythms" />
-      <option name="MAIN_CLASS_NAME" value="com.mihu.Algorythms.DuplicateFinderTest" />
-      <option name="METHOD_NAME" value="test3elementRepetition" />
+      <option name="PACKAGE_NAME" value="com.mihu.colections" />
+      <option name="MAIN_CLASS_NAME" value="com.mihu.colections.MyStackTest" />
+      <option name="METHOD_NAME" value="testExeptionwhenStackFull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialTest.test2is2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.testIfPopRemovesLastElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mihu.Algorythms.*" />
+          <option name="PATTERN" value="com.mihu.colections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mihu.Algorythms" />
-      <option name="MAIN_CLASS_NAME" value="com.mihu.Algorythms.FactorialTest" />
-      <option name="METHOD_NAME" value="test2is2" />
+      <option name="PACKAGE_NAME" value="com.mihu.colections" />
+      <option name="MAIN_CLASS_NAME" value="com.mihu.colections.MyStackTest" />
+      <option name="METHOD_NAME" value="testIfPopRemovesLastElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialTest.test3is6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.testSizeOfArrayAfterAdditionMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mihu.Algorythms.*" />
+          <option name="PATTERN" value="com.mihu.colections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mihu.Algorythms" />
-      <option name="MAIN_CLASS_NAME" value="com.mihu.Algorythms.FactorialTest" />
-      <option name="METHOD_NAME" value="test3is6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialTest.test3is6stream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-exercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mihu.Algorythms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mihu.Algorythms" />
-      <option name="MAIN_CLASS_NAME" value="com.mihu.Algorythms.FactorialTest" />
-      <option name="METHOD_NAME" value="test3is6stream" />
+      <option name="PACKAGE_NAME" value="com.mihu.colections" />
+      <option name="MAIN_CLASS_NAME" value="com.mihu.colections.MyStackTest" />
+      <option name="METHOD_NAME" value="testSizeOfArrayAfterAdditionMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DuplicateFinderTest.test3elementNonRepetition" />
-        <item itemvalue="JUnit.DuplicateFinderTest.test3elementRepetition" />
-        <item itemvalue="JUnit.FactorialTest.test3is6stream" />
-        <item itemvalue="JUnit.FactorialTest.test3is6" />
-        <item itemvalue="JUnit.FactorialTest.test2is2" />
+        <item itemvalue="JUnit.MyStackTest.testExeptionwhenStackFull" />
+        <item itemvalue="JUnit.MyStackTest.testIfPopRemovesLastElement" />
+        <item itemvalue="JUnit.MyStackTest" />
+        <item itemvalue="JUnit.MyStackTest.testEqualityOfArrays" />
+        <item itemvalue="JUnit.MyStackTest.testSizeOfArrayAfterAdditionMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -379,49 +362,51 @@
       <workItem from="1557907830726" duration="10043000" />
       <workItem from="1557992792776" duration="7900000" />
       <workItem from="1558948641796" duration="8844000" />
+      <workItem from="1559034883957" duration="6337000" />
+      <workItem from="1559125098331" duration="6832000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FactorialTest_test2is2 - 2019.05.27 at 13h 55m 41s.xml">
-      <configuration name="FactorialTest.test2is2" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testEqualityOfArrays - 2019.05.29 at 12h 58m 34s.xml">
+      <configuration name="MyStackTest.testEqualityOfArrays" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest_test2is2 - 2019.05.27 at 13h 56m 10s.xml">
-      <configuration name="FactorialTest.test2is2" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testEqualityOfArrays - 2019.05.29 at 12h 59m 29s.xml">
+      <configuration name="MyStackTest.testEqualityOfArrays" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest_test3is6 - 2019.05.27 at 13h 56m 38s.xml">
-      <configuration name="FactorialTest.test3is6" configurationId="JUnit" />
+    <history-entry file="MyStackTest - 2019.05.29 at 12h 59m 52s.xml">
+      <configuration name="MyStackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest_test3is6 - 2019.05.27 at 13h 56m 53s.xml">
-      <configuration name="FactorialTest.test3is6" configurationId="JUnit" />
+    <history-entry file="MyStackTest - 2019.05.29 at 13h 01m 09s.xml">
+      <configuration name="MyStackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest_test3is6stream - 2019.05.27 at 14h 08m 10s.xml">
-      <configuration name="FactorialTest.test3is6stream" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testIfPopRemovesLastElement - 2019.05.29 at 13h 12m 44s.xml">
+      <configuration name="MyStackTest.testIfPopRemovesLastElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateFinderTest_test3elementNonRepetition - 2019.05.27 at 14h 26m 24s.xml">
-      <configuration name="DuplicateFinderTest.test3elementNonRepetition" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testExeptionwhenStackFull - 2019.05.29 at 13h 16m 35s.xml">
+      <configuration name="MyStackTest.testExeptionwhenStackFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateFinderTest_test3elementNonRepetition - 2019.05.27 at 14h 27m 19s.xml">
-      <configuration name="DuplicateFinderTest.test3elementNonRepetition" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testExeptionwhenStackFull - 2019.05.29 at 13h 16m 44s.xml">
+      <configuration name="MyStackTest.testExeptionwhenStackFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateFinderTest_test3elementRepetition - 2019.05.27 at 14h 27m 54s.xml">
-      <configuration name="DuplicateFinderTest.test3elementRepetition" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testExeptionwhenStackFull - 2019.05.29 at 13h 33m 50s.xml">
+      <configuration name="MyStackTest.testExeptionwhenStackFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateFinderTest_test3elementRepetition - 2019.05.27 at 14h 28m 06s.xml">
-      <configuration name="DuplicateFinderTest.test3elementRepetition" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testExeptionwhenStackFull - 2019.05.29 at 13h 46m 16s.xml">
+      <configuration name="MyStackTest.testExeptionwhenStackFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateFinderTest_test3elementRepetition - 2019.05.27 at 14h 28m 17s.xml">
-      <configuration name="DuplicateFinderTest.test3elementRepetition" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testExeptionwhenStackFull - 2019.05.29 at 14h 08m 04s.xml">
+      <configuration name="MyStackTest.testExeptionwhenStackFull" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27466000" />
+    <option name="totallyTimeSpent" value="40635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2589928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26508024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,8 +416,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42548597" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22570194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -457,13 +442,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90" />
@@ -476,46 +454,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/colections/MyArrayListsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/QuickSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/FactorialTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="330">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -531,20 +476,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/DuplicateFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/Algorythms/QuickSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/utills/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/Algorythms/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/colections/MyArrayListsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/colections/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mihu/colections/customExceptions/StackIsFullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mihu/colections/MyStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
