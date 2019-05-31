@@ -4,59 +4,58 @@ import com.mihu.colections.customExceptions.StackIsFullException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class MyStackTest {
 
-    MyStack myStack;
+    MyStack<Object> myStack;
 
     @BeforeEach
     private void createInstance(){
-        this.myStack = new MyStack(30);
+        this.myStack = new MyStack<>(30);
     }
 
     @Test
     public void testSizeOfArrayAfterAdditionMethod() throws StackIsFullException {
-        int expected = 2;
+        int expectedIndexOfLastElement = 1;
 
         populateStack(2);
 
-        assertEquals(expected, myStack.getIndexOfLastElement() + 1);
+        assertEquals(expectedIndexOfLastElement, myStack.getIndexOfLastElement());
     }
 
     @Test
     public void testEqualityOfArrays() throws StackIsFullException {
-        int[] expected = {0, 1, 2, 3};
+        String expectedStringConversion = "0 1 2 3 ";
 
         populateStack(4);
 
-        assertArrayEquals(expected, getValuesFromStack(myStack.getIndexOfLastElement()));
+        assertEquals(expectedStringConversion, myStack.toString());
     }
 
     @Test
     public void testIfPopRemovesLastElement() throws StackIsFullException {
-        int[] expected = {0, 1, 2};
+        String expectedStringConversion = "0 1 2 ";
             populateStack(4);
 
         myStack.pop();
 
-        assertArrayEquals(expected, getValuesFromStack(myStack.getIndexOfLastElement()));
+        assertEquals(expectedStringConversion, myStack.toString());
     }
 
     @Test
     public void testExeptionwhenStackFull() throws StackIsFullException {
         populateStack(30);
 
-        assertThrows(StackIsFullException.class, ()-> myStack.add(2));
+        assertThrows(StackIsFullException.class, ()-> myStack.push(2));
     }
 
     private void populateStack(int numberOfElementsToAdd) throws StackIsFullException{
         IntStream.range(0, numberOfElementsToAdd).forEach(x -> {
             try {
-                myStack.add(x);
+                myStack.push(x);
             } catch (StackIsFullException e) {
                 e.printStackTrace();
             }
